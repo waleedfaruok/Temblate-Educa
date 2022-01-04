@@ -871,29 +871,3 @@ margin-left: 10px;
  }
  /* end blogs */
 
- /* start up  */
- .up{
-     position: fixed;
-     bottom: 10px;
-     right: -30px;
-     width: 30px;
-     height: 30px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background: none;
-     border: none;
-     color: white;
-     border-radius: 5px;
-     cursor: pointer;
-     font-size: 14px;
-     background-color: var(--main-color);
-     transition: var(--main-transition);
- }
- .up.add{
-    right: 10px;
- }
- .up:hover{
-     opacity: 0.7;
- }
- /* end up */

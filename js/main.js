@@ -3,7 +3,6 @@ let iconse = document.querySelector(".iconse");
 let colora = document.querySelector(".colora");
 let ex = document.querySelector(".ex");
 let img = document.querySelector(".imge");
-
 let arrayimg = [
     "img/pad1.jpg",
     "img/pad2.jpg",
@@ -38,7 +37,6 @@ window.onscroll = function(){
         dfals = true;
     }
 };
-
 function addcint(el){
 let cont = el.dataset.cont;
 let cler = setInterval(()=>{
@@ -49,19 +47,5 @@ let cler = setInterval(()=>{
 },2000 /cont );
 };
 // end cont
-// start up
-let up = document.querySelector(".up");
 
-window.onscroll = function(){
-    if(window.scrollY >= 1000){
-      up.classList.add("add");
-    }else{
-        up.classList.remove("add");
-    }
-};
-up.addEventListener("click",function(){
-  window.scrollTo({
-     top:0,
-     behavior:"smooth" 
-  });
-});
+
